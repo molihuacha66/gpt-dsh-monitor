@@ -1,0 +1,12 @@
+{
+  "description": "Local project-owned bridge source snapshot; no credentials, configuration or business data copied.",
+  "files": {
+    "bridge/server.mjs": "727c98f05762cb13f26eca0c68b8b9482d67a82845e033970b6bf39e01d02e0a",
+    "bridge/store.mjs": "ec1ef184fdcbb66773859e336b4d616fa6ae1e457dd9a656eb7ab0e05864b9f1",
+    "bridge/mcp-server.mjs": "908e3c4f2d6c5f738065817904a706d316b5f4942db284ce09f727c8dd20ce26",
+    "bridge/codex-runner.mjs": "018abd3871f7690d95c1c8fb5256b0a52cabbebe4ece26130a0bf7bb7d3e8d4b",
+    "bridge/auto-wake.mjs": "79e397c237c899264681539de173dde97ebb7c9d9213cf000df794f851af2010",
+    "bridge/codex-locator.mjs": "ab56ddf4221da868eb77604a065cc2497b014b2eeff41da88b2e876e36019a2f",
+    "dsh-plugin/index.js": "14bc6e1fe9dd8254b271ac7e9f7eb97868e8ca3f9f8f7c5c77692ce4ea880a29"
+  }
+}

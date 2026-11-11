@@ -1,0 +1,1325 @@
+{
+  "version": "0.7.0-beta.1",
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "bytes": 701,
+      "sha256": "070bde1e5755fff7120994353e1fe68874e11c4e556e5e4d5c13ec4cc2833d1e"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "sha256": "e22a82880658960364a8342c433cbcaae2ffc7d169c4525c2ac57e87fa5ef3c8"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 665,
+      "sha256": "ded48da26c0f81b37edba3ba5b5323d1ac2813f479b9afa331415b9a868e75b8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 107,
+      "sha256": "f09befc2c4d66d944ffe5b69269f02b5e8fbc0b080d702d63a586eeadc53d901"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1417,
+      "sha256": "0ddd1ac5f88d8c2bfc3eafda2bfca579ff6fa6cb68698cd7a43df5866b122ae4"
+    },
+    {
+      "path": "bin/bridge-between.mjs",
+      "bytes": 50,
+      "sha256": "a8b54e6e05da48c0525e3987ac78a7542bbe77fb4e943208fb4252d68e7a2109"
+    },
+    {
+      "path": "bin/demo.ts",
+      "bytes": 1433,
+      "sha256": "f108d91513f2bf7d13ec7e8e71f4050cb3860f778aa95811b80a7ff3278540bc"
+    },
+    {
+      "path": "bin/service.ts",
+      "bytes": 4664,
+      "sha256": "336ea4c31315b3f93f0278c08096ff9041a64820e164ca696ef9863904802e7b"
+    },
+    {
+      "path": "BUILD-INFO.json",
+      "bytes": 160,
+      "sha256": "409b64e2af779d4fec718fd887b67d570b0fa97a75d5a5926ebf29fdb79c4e7d"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 906,
+      "sha256": "e96dd246b04f323dda7eb5e0bb694f8c0910bece2c2f0a8b2d21d9ec89bf83b3"
+    },
+    {
+      "path": "components/bridge/auto-wake.mjs",
+      "bytes": 2324,
+      "sha256": "1264d9a1e8e5c4f26a4733961662eccde4de246a6b0a2ae1cf623119aa624ff8"
+    },
+    {
+      "path": "components/bridge/codex-locator.mjs",
+      "bytes": 3118,
+      "sha256": "f68a4788b1c00fb00b674b91f93d7a274bcbfbf7ffa4c312b74d7e39316dccc5"
+    },
+    {
+      "path": "components/bridge/codex-runner.mjs",
+      "bytes": 8149,
+      "sha256": "65aba515d10443aea0e393f6c42f4c71a4964979ce9fffb4ec4cc377d9490d2f"
+    },
+    {
+      "path": "components/bridge/LICENSE",
+      "bytes": 1075,
+      "sha256": "6579e66831291cb4d58e74526615b19a1e51f382ea0a0cb89fdb7b12a58809f9"
+    },
+    {
+      "path": "components/bridge/mcp-server.mjs",
+      "bytes": 16675,
+      "sha256": "09b9f9ffc413f925a4846047af71b477510adcff660a29293f0a77b5d446e51e"
+    },
+    {
+      "path": "components/bridge/server.mjs",
+      "bytes": 21936,
+      "sha256": "36b679451ba0155d566ec32d78a3a6a208611cb1b52d89d63bcb11f8efbbbf2d"
+    },
+    {
+      "path": "components/bridge/store.mjs",
+      "bytes": 28718,
+      "sha256": "a6842606a5a2129e02548323ffcc191db918559f567cc25ceb8d764a3abaa5cb"
+    },
+    {
+      "path": "components/dsh-plugin/cordis.patch.yml",
+      "bytes": 70,
+      "sha256": "725b7ea38adc316a8ddbe082c83b57f22e026826625e69c5a62a1a30c28557df"
+    },
+    {
+      "path": "components/dsh-plugin/icon.svg",
+      "bytes": 752,
+      "sha256": "b111abd35ff33efde0dad1298b9b11fb68f5eb79514a841d7676df0aaead21dc"
+    },
+    {
+      "path": "components/dsh-plugin/index.js",
+      "bytes": 23957,
+      "sha256": "b7ce2b50f1c6e0da82bf45071e6593fe72a769f74bf301142d4d8b81c3500f8d"
+    },
+    {
+      "path": "components/dsh-plugin/LICENSE",
+      "bytes": 1075,
+      "sha256": "6579e66831291cb4d58e74526615b19a1e51f382ea0a0cb89fdb7b12a58809f9"
+    },
+    {
+      "path": "components/dsh-plugin/locale/en.json",
+      "bytes": 204,
+      "sha256": "a92515a777fa824d6cab1d58f620aac3b4c1bd0349ceb3701d5f5d954e6d011f"
+    },
+    {
+      "path": "components/dsh-plugin/locale/zh.json",
+      "bytes": 184,
+      "sha256": "731e0a4d64d7ec70ca7e519ee5c190173847aa5b96b2afee7b9d0c65c0cbe69e"
+    },
+    {
+      "path": "components/dsh-plugin/package.json",
+      "bytes": 600,
+      "sha256": "d2bae352bd12f802ac30f91d290bad6fd2d22e4fda1c6424d09c020d64e2d39c"
+    },
+    {
+      "path": "docs/COMPATIBILITY.md",
+      "bytes": 2024,
+      "sha256": "e447a3afeb4261a8d2099be578ed0ebc60e5d7b68bb25311e888f6c91acaeaf0"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 6213,
+      "sha256": "1b397712b14dc275f5f7355c176733f9ee159107099743b7be91167b98c78b14"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "bytes": 3027,
+      "sha256": "04a4602004ed7e658b1da6b209c4adfb5cf0bba6e6fe3ce2685c32d71c7d862a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1075,
+      "sha256": "6579e66831291cb4d58e74526615b19a1e51f382ea0a0cb89fdb7b12a58809f9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 958,
+      "sha256": "86e1500ee1ff6b309b0faf951a689ec7349ee52082430a6cbe9e3e9f4aacc02c"
+    },
+    {
+      "path": "packages/monitor/package.json",
+      "bytes": 71,
+      "sha256": "7f8c30917af2dbc1cceed724050a82591c16c5a80e2b06548c2d5a9cf6eb3bb4"
+    },
+    {
+      "path": "packages/monitor/src/cli.ts",
+      "bytes": 2171,
+      "sha256": "6cf8ae2621a94d3560bf0e2c57563d535b4ea7810b4df0331b73868292d51312"
+    },
+    {
+      "path": "packages/monitor/src/collector.ts",
+      "bytes": 7202,
+      "sha256": "cd30338a15b4360f0645755b6141e08e3ba46aef71635d2b959d1dc19088a794"
+    },
+    {
+      "path": "packages/monitor/src/config.ts",
+      "bytes": 873,
+      "sha256": "9ff579b3e5d069e541efe2e469c890bd396f0ba241c43fff8d99aa86565343ca"
+    },
+    {
+      "path": "packages/monitor/src/conversation/artifacts.ts",
+      "bytes": 13346,
+      "sha256": "4732db890c7c990206ed4be2ad781229d2600ddb600874b3ac774927554ecfe6"
+    },
+    {
+      "path": "packages/monitor/src/conversation/grouping.ts",
+      "bytes": 1925,
+      "sha256": "3cfe95ab2118caca3e315f6fcc31f14ce9c8c202c1f11d38184ca7f657fd5247"
+    },
+    {
+      "path": "packages/monitor/src/conversation/query.ts",
+      "bytes": 6658,
+      "sha256": "40c6285c54702f461d924078b095b1c369197f31d557c6e803651ec6ccf2a409"
+    },
+    {
+      "path": "packages/monitor/src/conversation/service.ts",
+      "bytes": 2468,
+      "sha256": "3535b449880b598912faef74ed897da93b1546933536ed2510808526fd49a3fc"
+    },
+    {
+      "path": "packages/monitor/src/conversation/types.ts",
+      "bytes": 1256,
+      "sha256": "1da28d7ea1e625c3db217d298a57e71e2fd6191dd067e71c9fe20ee6a7b1e2d8"
+    },
+    {
+      "path": "packages/monitor/src/dashboard.ts",
+      "bytes": 2178,
+      "sha256": "989caf5a8e6f401516e51fe81eb5efcc38400a850b08e372d8fb3eae77695c8c"
+    },
+    {
+      "path": "packages/monitor/src/errors.ts",
+      "bytes": 333,
+      "sha256": "37a926f518da984763e864378451e72887d51d7a2bbb67023c6a42f15eeda912"
+    },
+    {
+      "path": "packages/monitor/src/maintenance/cli.ts",
+      "bytes": 1932,
+      "sha256": "5c4eabf8bb0bd924029f5ffa25d25304d77e1abea1454d37c468213827405ba2"
+    },
+    {
+      "path": "packages/monitor/src/maintenance/database.ts",
+      "bytes": 7518,
+      "sha256": "0d0a61550f430abace467c9edd6ecc9d4212a505e7ea4ae7cfa773ec61341b14"
+    },
+    {
+      "path": "packages/monitor/src/mcp/schema.ts",
+      "bytes": 775,
+      "sha256": "75f324fd383fa206a14217d0421078b1d5e8dd959287a1a3020f32dd7e13a227"
+    },
+    {
+      "path": "packages/monitor/src/mcp/server.ts",
+      "bytes": 2994,
+      "sha256": "7b176b629da9994c1a1ab369840b6b3780695d285573a04fa40bd57090cd0150"
+    },
+    {
+      "path": "packages/monitor/src/mcp/stdio.ts",
+      "bytes": 887,
+      "sha256": "169cdc4ef5da08184606992a6148f88b363c01d50e898db435dc60b0668f9071"
+    },
+    {
+      "path": "packages/monitor/src/paths.ts",
+      "bytes": 1878,
+      "sha256": "56c32c030611f0556312b02cd0085f3da3ccd83fe2185fe6d3ba264250cfe10a"
+    },
+    {
+      "path": "packages/monitor/src/query.ts",
+      "bytes": 8810,
+      "sha256": "9dc67af4e0d363e4f93cfd91c0a4f91c4adf5ef7cce38cc9dd879f0463f6ae03"
+    },
+    {
+      "path": "packages/monitor/src/redaction.ts",
+      "bytes": 2886,
+      "sha256": "e27d9c1863c816f1225d0e7ad004b35a504092cc6bf900609d1195ac859e358e"
+    },
+    {
+      "path": "packages/monitor/src/runtime/controller.ts",
+      "bytes": 3164,
+      "sha256": "b38ecebc4d144232144969b3599d6308216bb6ab12cd3dc20540d269fa280f8c"
+    },
+    {
+      "path": "packages/monitor/src/runtime/health.ts",
+      "bytes": 2822,
+      "sha256": "3d1ba5bf39519105360176eb30e0407d604423f583f91820fdb331495dc1e82f"
+    },
+    {
+      "path": "packages/monitor/src/runtime/scheduler.ts",
+      "bytes": 1828,
+      "sha256": "ebf1770d669091e87d1be79638ea2f8d252c343f8ac018e05872b4474d169285"
+    },
+    {
+      "path": "packages/monitor/src/runtime/worker.ts",
+      "bytes": 4810,
+      "sha256": "3cd439a697659abebbc1741dd9e15d7a943530bdc59fa8c0d73aff623971d397"
+    },
+    {
+      "path": "packages/monitor/src/schema.ts",
+      "bytes": 1667,
+      "sha256": "ddac2e5d241d824136d8ff27692e731c4a13acf0c7c62217523cbc844ab4d301"
+    },
+    {
+      "path": "packages/monitor/src/server.ts",
+      "bytes": 6956,
+      "sha256": "e329da69fcc27861da42a763600cd5d8e59ff71782a769930f35afa9c53ea5c3"
+    },
+    {
+      "path": "packages/monitor/src/source.ts",
+      "bytes": 3053,
+      "sha256": "480b0370f0e38d99bc7c137adc2ebb47444f51a557d80f3b7eb1c38d0aed02cd"
+    },
+    {
+      "path": "packages/monitor/src/store.ts",
+      "bytes": 4203,
+      "sha256": "044e320fe10a13019cb3c7ca8bbc0da9ef6e221610c9753bfaba57fd380fa93a"
+    },
+    {
+      "path": "packages/monitor/src/subagents/cli.ts",
+      "bytes": 898,
+      "sha256": "b5022d955a94c7b2de78213a042f08a78062577449c8ca4d757f48fc4c820fbd"
+    },
+    {
+      "path": "packages/monitor/src/subagents/collector.ts",
+      "bytes": 14076,
+      "sha256": "010f5cfa02d84c7e9bd452a12e1e680e81284d7c0a0afe38cfad44770fbd5e6a"
+    },
+    {
+      "path": "packages/monitor/src/subagents/normalize.ts",
+      "bytes": 6024,
+      "sha256": "65ef54164eda692778015fbc19fdd244cb7152dd01240b4d2bdbdd2fae3fc70c"
+    },
+    {
+      "path": "packages/monitor/src/subagents/query.ts",
+      "bytes": 4683,
+      "sha256": "2f48529fc96a62279e97d32e8cd0205b70f27ec22a38f4837fc755cb3b89d293"
+    },
+    {
+      "path": "packages/monitor/src/subagents/zstd.ts",
+      "bytes": 2631,
+      "sha256": "38aacb70514c8a9c14df7de8c7cbe40af336236551040c7d0fd5cea2391c1915"
+    },
+    {
+      "path": "packages/monitor/test/collector.test.ts",
+      "bytes": 18265,
+      "sha256": "f8af8bc4e9530e7bbc37aa0f768da1cf8aa73d0d332874def7e29c0232a577ed"
+    },
+    {
+      "path": "packages/monitor/test/conversation.test.ts",
+      "bytes": 17334,
+      "sha256": "3f75ed09f8ef24d4196091ea8e90121ab03766a55adec315f7b5395af48a9d17"
+    },
+    {
+      "path": "packages/monitor/test/dashboard.test.ts",
+      "bytes": 10744,
+      "sha256": "3c18baa88af328572f564de4e07e2660ffe5d98912710e61b6cd9775f38726e9"
+    },
+    {
+      "path": "packages/monitor/test/operations.test.ts",
+      "bytes": 18147,
+      "sha256": "e833f3efc42a9e80e84551e50c4ed06cede3cf02794988f2fbfdbe5a9d2d47fb"
+    },
+    {
+      "path": "packages/monitor/test/subagents.test.ts",
+      "bytes": 19725,
+      "sha256": "daaae9a25c76b1e209b165bffa7d222af4ea6d3f0398b229f842682bd2d401f3"
+    },
+    {
+      "path": "packages/monitor/tsconfig.json",
+      "bytes": 501,
+      "sha256": "a5eca453acd3c60b0f2b32cdb1ebda75e12d90cd5b335c45c80edfd1e6f6b035"
+    },
+    {
+      "path": "packages/monitor/vite.config.ts",
+      "bytes": 247,
+      "sha256": "d038c61d47288c6fb3ece9fe4079badbc99742d18252bf72311907584a4c4f3a"
+    },
+    {
+      "path": "packages/monitor/web/agents.tsx",
+      "bytes": 11806,
+      "sha256": "e81dadbbafc2a7f4aba8865f99959a4264dc2510da61306dbac3cafdd8455485"
+    },
+    {
+      "path": "packages/monitor/web/app-preview.css",
+      "bytes": 226,
+      "sha256": "daaa2295e340db0ceb8865531a5c90051a3cb004dd8af167477866d40c39e369"
+    },
+    {
+      "path": "packages/monitor/web/app-preview.html",
+      "bytes": 446,
+      "sha256": "d926f3a263b24ae683f491fd56fc6a69341a5b2f03d8319ec4b12932a586e0c6"
+    },
+    {
+      "path": "packages/monitor/web/app-preview.ts",
+      "bytes": 1590,
+      "sha256": "63891e772684989415405fd831e73278f65245c8ce70846036b2433b0e0a3ad0"
+    },
+    {
+      "path": "packages/monitor/web/conversation.css",
+      "bytes": 18801,
+      "sha256": "80f45876c08df36d97da210d57d9c3ad15c0da47e1ecf003dafdf4aace9049e2"
+    },
+    {
+      "path": "packages/monitor/web/conversation.tsx",
+      "bytes": 28939,
+      "sha256": "d4006af6d39e7f8df18bc04897f283bb3c0423d67e3817637073dac311e875c2"
+    },
+    {
+      "path": "packages/monitor/web/env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "packages/monitor/web/index.html",
+      "bytes": 323,
+      "sha256": "33dfd7776f5fce721adf501efd8372b680372078b7faadbbe76c12f2be268972"
+    },
+    {
+      "path": "packages/monitor/web/legacy.html",
+      "bytes": 278,
+      "sha256": "255524a3ae496f4e3e96919fa1c523482ec0ada80653a0eef39148ae525a8026"
+    },
+    {
+      "path": "packages/monitor/web/legacy.tsx",
+      "bytes": 22026,
+      "sha256": "f70a7067073f9acca84c0d3a7b07df799ca675be781f7545e0c8e7b22631ea49"
+    },
+    {
+      "path": "packages/monitor/web/main.tsx",
+      "bytes": 261,
+      "sha256": "f08d98b3b0145421611c3d36cc556142d3064b5a5fa3782d31c06a7f663d6eee"
+    },
+    {
+      "path": "packages/monitor/web/mcp.tsx",
+      "bytes": 1400,
+      "sha256": "dc5fb34f9ea6097d502702380ff0f770774d0535941d002ef3b77644d5d5e95a"
+    },
+    {
+      "path": "packages/monitor/web/reader.ts",
+      "bytes": 520,
+      "sha256": "ccd3022a5c9a737fc202186180279e83da9a8f18eb38ef62e7f84888e9be1629"
+    },
+    {
+      "path": "packages/monitor/web/style.css",
+      "bytes": 18109,
+      "sha256": "61567c078cdb1a966325492eb1c68c211e8f94da28376db2b1fed97bd3c18b3d"
+    },
+    {
+      "path": "plugins/dsh-codex-bridge/.codex-plugin/plugin.json",
+      "bytes": 176,
+      "sha256": "89b7860432f1233299de7caa6a994f1a3e61a0c3edd8074b56a2d834f5ba9cf8"
+    },
+    {
+      "path": "plugins/dsh-codex-bridge/.mcp.json",
+      "bytes": 113,
+      "sha256": "387e80abac71e6baf409a11feecd5712b2a2656cc88627858b9cbc79e9e14c52"
+    },
+    {
+      "path": "plugins/dsh-codex-bridge/LICENSE",
+      "bytes": 1075,
+      "sha256": "6579e66831291cb4d58e74526615b19a1e51f382ea0a0cb89fdb7b12a58809f9"
+    },
+    {
+      "path": "plugins/dsh-codex-bridge/mcp.json",
+      "bytes": 181,
+      "sha256": "763c7893f29407950ba0b8692dc97fe71dad87d32dda77f57ade76d274b57a37"
+    },
+    {
+      "path": "plugins/dsh-codex-bridge/plugin.json",
+      "bytes": 333,
+      "sha256": "9aa042e635d6d81b8de4b63c0a36718459b2158b54678140230c347df4e00b1c"
+    },
+    {
+      "path": "plugins/dsh-codex-bridge/server/index.mjs",
+      "bytes": 20142,
+      "sha256": "fa1e63f166d044d6fcd985ed42d2dd793a1b43dd88d901631dfd0312af4e5b52"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/.codex-plugin/plugin.json",
+      "bytes": 765,
+      "sha256": "42878f60edb74019b72de2ddca1ffa0114372985667684f3a0a2fe5a935a6bac"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/.mcp.json",
+      "bytes": 163,
+      "sha256": "726c050a9d7f3c73bd9d86b2b8539fc37c879a488149d5980960f8b518de7678"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/assets/icon.svg",
+      "bytes": 321,
+      "sha256": "2d088ca184925c0bfdd2a4e485f9d04b46d3285454e3d75dc60be8870c2c23c2"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/bin/main.mjs",
+      "bytes": 11448,
+      "sha256": "6fa84654aa1b6600ad1164dbed24fb18fac76981aca25bb8e7e725ed1e69deec"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/components/bridge/auto-wake.mjs",
+      "bytes": 2324,
+      "sha256": "1264d9a1e8e5c4f26a4733961662eccde4de246a6b0a2ae1cf623119aa624ff8"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/components/bridge/codex-locator.mjs",
+      "bytes": 3118,
+      "sha256": "f68a4788b1c00fb00b674b91f93d7a274bcbfbf7ffa4c312b74d7e39316dccc5"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/components/bridge/codex-runner.mjs",
+      "bytes": 8149,
+      "sha256": "65aba515d10443aea0e393f6c42f4c71a4964979ce9fffb4ec4cc377d9490d2f"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/components/bridge/LICENSE",
+      "bytes": 1075,
+      "sha256": "6579e66831291cb4d58e74526615b19a1e51f382ea0a0cb89fdb7b12a58809f9"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/components/bridge/mcp-server.mjs",
+      "bytes": 16675,
+      "sha256": "09b9f9ffc413f925a4846047af71b477510adcff660a29293f0a77b5d446e51e"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/components/bridge/server.mjs",
+      "bytes": 21936,
+      "sha256": "36b679451ba0155d566ec32d78a3a6a208611cb1b52d89d63bcb11f8efbbbf2d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/components/bridge/store.mjs",
+      "bytes": 28718,
+      "sha256": "a6842606a5a2129e02548323ffcc191db918559f567cc25ceb8d764a3abaa5cb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/dist/assets/main.css",
+      "bytes": 18784,
+      "sha256": "e9fd9fa0798c2b9266bef009ae0a144fcc81f488b4750967a9139e4cf599e0a6"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/dist/assets/main.js",
+      "bytes": 375749,
+      "sha256": "8da6d7c1a35654f7d9dcaf156eacb51c0e0d8ff37bcc78cd48492b0e908783e6"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/dist/index.html",
+      "bytes": 314,
+      "sha256": "b3868cc0ed9f2aae33d3d7ee023dd9209f157db6e49bcbb0d62d7f0d70bba1ac"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/dist/mcp-app.html",
+      "bytes": 1061092,
+      "sha256": "14408dc7c7c1eb5909d1a8e4a48f3881b17537b123d8273998fa4d3bc1ed73b1"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/lib/config.mjs",
+      "bytes": 1764,
+      "sha256": "5e1f28f261d21c1987e40b1faee970bc2461213235b42423de85eac68e4864a4"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/lib/rpc.mjs",
+      "bytes": 1751,
+      "sha256": "c5e376baf65cad6e77f6b56f2e432d1fc7776457d2df1879a4fc7279f0a1c8d0"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/LICENSE",
+      "bytes": 1075,
+      "sha256": "6579e66831291cb4d58e74526615b19a1e51f382ea0a0cb89fdb7b12a58809f9"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/mcp.json",
+      "bytes": 235,
+      "sha256": "0ae2fe147ec86d0c519f7cee270469ce7c2f07e139a52a4c84cc10ed16a8c4bb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/optional-plugins/dsh-codex-bridge/.codex-plugin/plugin.json",
+      "bytes": 176,
+      "sha256": "89b7860432f1233299de7caa6a994f1a3e61a0c3edd8074b56a2d834f5ba9cf8"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/optional-plugins/dsh-codex-bridge/.mcp.json",
+      "bytes": 113,
+      "sha256": "387e80abac71e6baf409a11feecd5712b2a2656cc88627858b9cbc79e9e14c52"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/optional-plugins/dsh-codex-bridge/LICENSE",
+      "bytes": 1075,
+      "sha256": "6579e66831291cb4d58e74526615b19a1e51f382ea0a0cb89fdb7b12a58809f9"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/optional-plugins/dsh-codex-bridge/mcp.json",
+      "bytes": 181,
+      "sha256": "763c7893f29407950ba0b8692dc97fe71dad87d32dda77f57ade76d274b57a37"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/optional-plugins/dsh-codex-bridge/plugin.json",
+      "bytes": 333,
+      "sha256": "9aa042e635d6d81b8de4b63c0a36718459b2158b54678140230c347df4e00b1c"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/optional-plugins/dsh-codex-bridge/server/index.mjs",
+      "bytes": 20142,
+      "sha256": "fa1e63f166d044d6fcd985ed42d2dd793a1b43dd88d901631dfd0312af4e5b52"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/plugin.json",
+      "bytes": 975,
+      "sha256": "e997312699668cee450cfdb145d0eb5193f333deaaab8f146e20178c05146130"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/runtime/demo.mjs",
+      "bytes": 2488,
+      "sha256": "5e0a7803bf73503c663292278ad000787fa0652c0307b9250f19b0432eebaab3"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/runtime/maintenance.mjs",
+      "bytes": 17426,
+      "sha256": "19b9b90fe23f55607c44f36dbdb8043ab4c466850fdbf5b5b36af51d3417de98"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/runtime/service.mjs",
+      "bytes": 55308,
+      "sha256": "4f54e7b57f7b8a7572ca9dd3836f8d26c5124e59393a53618dfa4fadaf062795"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/runtime/worker.mjs",
+      "bytes": 62005,
+      "sha256": "64c85f79149397b0f556ebf2f7fdc5e787f91c62ca6456650d616f4ffcb5439b"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/server/index.mjs",
+      "bytes": 1413132,
+      "sha256": "dd45d80c64bad5aa281e9e375a6ef1ac3e4922854732b24c897f68d2f8c79c6c"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/skills/open-monitor/SKILL.md",
+      "bytes": 1604,
+      "sha256": "65b201e77058c2e04c79fcdc6e05f8cc65cfacb7d221a199c405a9a71aae4403"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/bail-2.0.2-license",
+      "bytes": 1099,
+      "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/comma-separated-tokens-2.0.3-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/decode-named-character-reference-1.3.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/devlop-1.1.0-license",
+      "bytes": 1099,
+      "sha256": "6f296a5eccc1dc96714bb94ebaa9cac25b0a1467d74cc5263ac4d0646ab01f62"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/estree-util-is-identifier-name-3.0.0-license",
+      "bytes": 1099,
+      "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/eventsource-3.0.7-LICENSE",
+      "bytes": 1087,
+      "sha256": "f683a72ffe6a9675b5507af22fe0f448d8c8de3da1e14f139d370a7e6a54a23e"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/eventsource-parser-3.1.1-LICENSE",
+      "bytes": 1098,
+      "sha256": "835eb611a23301b27115ca1be9f754c876e643ceb7fe63049c6b50609a1cafeb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/extend-3.0.2-LICENSE",
+      "bytes": 1081,
+      "sha256": "97af7428f93afbab9bf79cd09254da1357161794f4255eb1b4599f04dd2d2e7c"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/hast-util-to-jsx-runtime-2.3.7-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/hast-util-whitespace-3.0.0-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/html-url-attributes-3.0.1-license",
+      "bytes": 1070,
+      "sha256": "e18cf5173e928f808f0cd208097fee8fbec9d28fc0255213938e4c559e29ff58"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/inline-style-parser-0.2.9-LICENSE",
+      "bytes": 1098,
+      "sha256": "395c95f20598da653ff1eb1cb9d74947c7fac689697147f1d192fd0242a0e635"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/is-plain-obj-4.1.0-license",
+      "bytes": 1117,
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/jose-6.2.15-LICENSE.md",
+      "bytes": 1079,
+      "sha256": "8078b0829d6c3e9ecde2f003e1966e4cad3efc6e7a640efbab0313cc166b1af1"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/mdast-util-from-markdown-2.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/mdast-util-to-hast-13.2.1-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/mdast-util-to-string-4.0.0-license",
+      "bytes": 1099,
+      "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-4.0.3-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-core-commonmark-2.0.4-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-factory-destination-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-factory-label-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-factory-space-2.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-factory-title-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-factory-whitespace-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-character-2.1.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-chunked-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-classify-character-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-combine-extensions-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-decode-numeric-character-reference-2.0.2-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-decode-string-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-edit-map-1.0.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-encode-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-html-tag-name-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-normalize-identifier-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-resolve-all-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-sanitize-uri-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/micromark-util-subtokenize-2.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/modelcontextprotocol__client-2.4.0-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/modelcontextprotocol__core-2.4.0-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/modelcontextprotocol__ext-apps-2.0.4-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/modelcontextprotocol__server-2.4.0-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/pkce-challenge-5.0.1-LICENSE",
+      "bytes": 1057,
+      "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/property-information-7.2.0-license",
+      "bytes": 1101,
+      "sha256": "5d0698266086f217bb11ea0499d33453e401fe479fb9126ad04e625e63d3557b"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/react-19.3.1-LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/react-dom-19.3.1-LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/react-markdown-10.1.0-license",
+      "bytes": 1079,
+      "sha256": "f6196c64e144f9a6fa9154c3a80bc8b89615a9567934b83a8951879f06ba2aef"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/remark-parse-11.0.0-license",
+      "bytes": 1099,
+      "sha256": "413654b0a78b98661dce96d2aff2e4d075603d220b8483e28b1aa010ccc138b4"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/remark-rehype-11.1.2-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/scheduler-0.28.0-LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/space-separated-tokens-2.0.2-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/style-to-object-2.0.2-LICENSE",
+      "bytes": 1110,
+      "sha256": "896c9fd6b5fc48ac31800b9d29a6e3ffcb0c2d534ed077ebfa5c2fa388cc38b7"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/trim-lines-3.0.1-license",
+      "bytes": 1106,
+      "sha256": "9f084fac69d8cf1e6ce983ba5a3499c7695ed74a26ec625c38f0fd19fddd5e10"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/trough-2.2.0-license",
+      "bytes": 1099,
+      "sha256": "6c03fd41cfd7c92d8aa8a2fa521b94b2683f059123281dcf921ddea9216b6254"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/ungap__structured-clone-1.4.0-LICENSE",
+      "bytes": 765,
+      "sha256": "dc6d4961d8b6ee747231582ae9c53ce1d66bf76bc9f5a28f554c0e97210953bf"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/unified-11.0.5-license",
+      "bytes": 1099,
+      "sha256": "05811400116ed61f1a7693b78fe8ca6598c155a12f3978e609db4df648a4cb3d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/unist-util-is-6.0.1-license",
+      "bytes": 1099,
+      "sha256": "82974dbf2639d13edab95c32ed9cb6c0867ede272cd2e07ce47ce8548fe55c05"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/unist-util-position-5.0.0-license",
+      "bytes": 1099,
+      "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/unist-util-stringify-position-4.0.0-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/unist-util-visit-5.2.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/unist-util-visit-parents-6.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/vfile-6.0.3-license",
+      "bytes": 1099,
+      "sha256": "05811400116ed61f1a7693b78fe8ca6598c155a12f3978e609db4df648a4cb3d"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/vfile-message-4.0.4-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/third-party-licenses/zod-4.6.7-LICENSE",
+      "bytes": 1072,
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/THIRD-PARTY-NOTICES.json",
+      "bytes": 9764,
+      "sha256": "9ef539951864d190e2ab8cd693b82efa7f913b5e44986550e45433b7f523322f"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/THIRD-PARTY-NOTICES.md",
+      "bytes": 1051,
+      "sha256": "7711d0a66b684d20856cea886e4b4590d92c1c939717c077b4ccbb528bce0429"
+    },
+    {
+      "path": "plugins/gpt-dsh-monitor/ui/monitor.html",
+      "bytes": 1061092,
+      "sha256": "14408dc7c7c1eb5909d1a8e4a48f3881b17537b123d8273998fa4d3bc1ed73b1"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 60993,
+      "sha256": "7711dc8e15a1785f63453dae0a5e52ce8914c3bd63bd0d1ecbe92e2fd0b2af5b"
+    },
+    {
+      "path": "PREPARATION.json",
+      "bytes": 110,
+      "sha256": "6fbf897c2787ffcfde6db5c5df694ba03b0da48f31f4e082f772acfdb6aa5dfb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4626,
+      "sha256": "28d3337ce9554bfce88bfbb7b94e3fb58b383d64e26d05ff14f956a974969c3b"
+    },
+    {
+      "path": "RELEASE-READINESS.md",
+      "bytes": 2178,
+      "sha256": "8d858c01b9b939eeaab1a51353dcdb20552551e3aca22c62dc78fe48e6afd26e"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1120,
+      "sha256": "95f409382ff33937865d064af562afcb6ee5514f37aa814629fb959598b9187d"
+    },
+    {
+      "path": "test/release.test.mjs",
+      "bytes": 12373,
+      "sha256": "f37e58abfc11dc9feb0275da8e5bd5a395d42f01c573cb7c8f8bd84daaf848cd"
+    },
+    {
+      "path": "third-party-licenses/bail-2.0.2-license",
+      "bytes": 1099,
+      "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+    },
+    {
+      "path": "third-party-licenses/comma-separated-tokens-2.0.3-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "third-party-licenses/decode-named-character-reference-1.3.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/devlop-1.1.0-license",
+      "bytes": 1099,
+      "sha256": "6f296a5eccc1dc96714bb94ebaa9cac25b0a1467d74cc5263ac4d0646ab01f62"
+    },
+    {
+      "path": "third-party-licenses/estree-util-is-identifier-name-3.0.0-license",
+      "bytes": 1099,
+      "sha256": "536804b3adbff17dbbb9ed0d2bf9655b78f07640278581e37e3d7475282d5e61"
+    },
+    {
+      "path": "third-party-licenses/eventsource-3.0.7-LICENSE",
+      "bytes": 1087,
+      "sha256": "f683a72ffe6a9675b5507af22fe0f448d8c8de3da1e14f139d370a7e6a54a23e"
+    },
+    {
+      "path": "third-party-licenses/eventsource-parser-3.1.1-LICENSE",
+      "bytes": 1098,
+      "sha256": "835eb611a23301b27115ca1be9f754c876e643ceb7fe63049c6b50609a1cafeb"
+    },
+    {
+      "path": "third-party-licenses/extend-3.0.2-LICENSE",
+      "bytes": 1081,
+      "sha256": "97af7428f93afbab9bf79cd09254da1357161794f4255eb1b4599f04dd2d2e7c"
+    },
+    {
+      "path": "third-party-licenses/hast-util-to-jsx-runtime-2.3.7-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/hast-util-whitespace-3.0.0-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "third-party-licenses/html-url-attributes-3.0.1-license",
+      "bytes": 1070,
+      "sha256": "e18cf5173e928f808f0cd208097fee8fbec9d28fc0255213938e4c559e29ff58"
+    },
+    {
+      "path": "third-party-licenses/inline-style-parser-0.2.9-LICENSE",
+      "bytes": 1098,
+      "sha256": "395c95f20598da653ff1eb1cb9d74947c7fac689697147f1d192fd0242a0e635"
+    },
+    {
+      "path": "third-party-licenses/is-plain-obj-4.1.0-license",
+      "bytes": 1117,
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "path": "third-party-licenses/jose-6.2.15-LICENSE.md",
+      "bytes": 1079,
+      "sha256": "8078b0829d6c3e9ecde2f003e1966e4cad3efc6e7a640efbab0313cc166b1af1"
+    },
+    {
+      "path": "third-party-licenses/mdast-util-from-markdown-2.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/mdast-util-to-hast-13.2.1-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "third-party-licenses/mdast-util-to-string-4.0.0-license",
+      "bytes": 1099,
+      "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+    },
+    {
+      "path": "third-party-licenses/micromark-4.0.3-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-core-commonmark-2.0.4-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-factory-destination-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-factory-label-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-factory-space-2.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-factory-title-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-factory-whitespace-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-character-2.1.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-chunked-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-classify-character-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-combine-extensions-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-decode-numeric-character-reference-2.0.2-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-decode-string-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-edit-map-1.0.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-encode-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-html-tag-name-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-normalize-identifier-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-resolve-all-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-sanitize-uri-2.0.1-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/micromark-util-subtokenize-2.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/modelcontextprotocol__client-2.4.0-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "third-party-licenses/modelcontextprotocol__core-2.4.0-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "third-party-licenses/modelcontextprotocol__ext-apps-2.0.4-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "third-party-licenses/modelcontextprotocol__server-2.4.0-LICENSE",
+      "bytes": 12227,
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "third-party-licenses/pkce-challenge-5.0.1-LICENSE",
+      "bytes": 1057,
+      "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
+    },
+    {
+      "path": "third-party-licenses/property-information-7.2.0-license",
+      "bytes": 1101,
+      "sha256": "5d0698266086f217bb11ea0499d33453e401fe479fb9126ad04e625e63d3557b"
+    },
+    {
+      "path": "third-party-licenses/react-19.3.1-LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/react-dom-19.3.1-LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/react-markdown-10.1.0-license",
+      "bytes": 1079,
+      "sha256": "f6196c64e144f9a6fa9154c3a80bc8b89615a9567934b83a8951879f06ba2aef"
+    },
+    {
+      "path": "third-party-licenses/remark-parse-11.0.0-license",
+      "bytes": 1099,
+      "sha256": "413654b0a78b98661dce96d2aff2e4d075603d220b8483e28b1aa010ccc138b4"
+    },
+    {
+      "path": "third-party-licenses/remark-rehype-11.1.2-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/scheduler-0.28.0-LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/space-separated-tokens-2.0.2-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "third-party-licenses/style-to-object-2.0.2-LICENSE",
+      "bytes": 1110,
+      "sha256": "896c9fd6b5fc48ac31800b9d29a6e3ffcb0c2d534ed077ebfa5c2fa388cc38b7"
+    },
+    {
+      "path": "third-party-licenses/trim-lines-3.0.1-license",
+      "bytes": 1106,
+      "sha256": "9f084fac69d8cf1e6ce983ba5a3499c7695ed74a26ec625c38f0fd19fddd5e10"
+    },
+    {
+      "path": "third-party-licenses/trough-2.2.0-license",
+      "bytes": 1099,
+      "sha256": "6c03fd41cfd7c92d8aa8a2fa521b94b2683f059123281dcf921ddea9216b6254"
+    },
+    {
+      "path": "third-party-licenses/ungap__structured-clone-1.4.0-LICENSE",
+      "bytes": 765,
+      "sha256": "dc6d4961d8b6ee747231582ae9c53ce1d66bf76bc9f5a28f554c0e97210953bf"
+    },
+    {
+      "path": "third-party-licenses/unified-11.0.5-license",
+      "bytes": 1099,
+      "sha256": "05811400116ed61f1a7693b78fe8ca6598c155a12f3978e609db4df648a4cb3d"
+    },
+    {
+      "path": "third-party-licenses/unist-util-is-6.0.1-license",
+      "bytes": 1099,
+      "sha256": "82974dbf2639d13edab95c32ed9cb6c0867ede272cd2e07ce47ce8548fe55c05"
+    },
+    {
+      "path": "third-party-licenses/unist-util-position-5.0.0-license",
+      "bytes": 1099,
+      "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf"
+    },
+    {
+      "path": "third-party-licenses/unist-util-stringify-position-4.0.0-license",
+      "bytes": 1099,
+      "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+    },
+    {
+      "path": "third-party-licenses/unist-util-visit-5.2.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/unist-util-visit-parents-6.1.0-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/vfile-6.0.3-license",
+      "bytes": 1099,
+      "sha256": "05811400116ed61f1a7693b78fe8ca6598c155a12f3978e609db4df648a4cb3d"
+    },
+    {
+      "path": "third-party-licenses/vfile-message-4.0.4-license",
+      "bytes": 1094,
+      "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+    },
+    {
+      "path": "third-party-licenses/zod-4.6.7-LICENSE",
+      "bytes": 1072,
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.json",
+      "bytes": 9764,
+      "sha256": "9ef539951864d190e2ab8cd693b82efa7f913b5e44986550e45433b7f523322f"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 1051,
+      "sha256": "7711d0a66b684d20856cea886e4b4590d92c1c939717c077b4ccbb528bce0429"
+    },
+    {
+      "path": "tools/audit.mjs",
+      "bytes": 3124,
+      "sha256": "07291a6c83671f7190e65ecea3d12efe98922e850600a54083134f6f6a98bc69"
+    },
+    {
+      "path": "tools/bridge-entry.mjs",
+      "bytes": 216,
+      "sha256": "984393213db7e5c940319ac820f42d39ba2836e19a88f481c5c180efe9e1f560"
+    },
+    {
+      "path": "tools/build.mjs",
+      "bytes": 6210,
+      "sha256": "0dfe4e1b22e27628a7c3a40a77a09055a15596bf514f12394e56becb421824aa"
+    },
+    {
+      "path": "tools/package.ps1",
+      "bytes": 1877,
+      "sha256": "777498da47063ed7285376ab31c462a618a3a97a32dda96ae217b9a0367f7e87"
+    },
+    {
+      "path": "tools/verify-archive.ps1",
+      "bytes": 1450,
+      "sha256": "d7d3e8b6f983764b82fc0262ee472e17a8ff40ba031609c970fd3edbafe074e5"
+    },
+    {
+      "path": "UPSTREAM-SNAPSHOT.json",
+      "bytes": 811,
+      "sha256": "fdcc5b2d631362ee664939646f9eec3a2c795efa0532dd99da77151f2dcc1f0d"
+    }
+  ],
+  "audit": {
+    "ok": true,
+    "problems": []
+  },
+  "limits": "Pattern scan and allowlist packaging do not prove absence of all possible secrets."
+}

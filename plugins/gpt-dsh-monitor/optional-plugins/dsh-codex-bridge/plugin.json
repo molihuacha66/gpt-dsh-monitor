@@ -1,0 +1,8 @@
+{
+  "$schema":"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name":"dsh-codex-bridge",
+  "version":"0.7.0-beta.1",
+  "description":"Optional local DSH–Codex communication bridge. Messaging and task operations are separate from the readonly monitor.",
+  "license":"MIT",
+  "author":{"name":"大肥鱼和龙娘"}
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex 桥",
+    "description": "DSH 与 OpenAI Codex 的双向协作：共享信箱与共同记录，Codex 发来消息时会主动唤醒本会话。"
+  }
+}

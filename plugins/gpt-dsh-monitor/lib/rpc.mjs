@@ -1,0 +1,8 @@
+import {spawn} from 'node:child_process';
+export async function inspectMcp(entry,home){
+ const child=spawn(process.execPath,[entry],{env:{...process.env,MONITOR_HOME:home},windowsHide:true,stdio:['pipe','pipe','pipe']});child.stderr.resume();let buffer='',id=0;const pending=new Map();
+ child.stdin.on('error',()=>{});
+ child.stdout.on('data',bytes=>{buffer+=bytes.toString();if(buffer.length>16*1024*1024){child.kill();return}let end;while((end=buffer.indexOf('\n'))>=0){const line=buffer.slice(0,end);buffer=buffer.slice(end+1);try{const message=JSON.parse(line);if(message.id!==undefined){pending.get(message.id)?.(message);pending.delete(message.id)}}catch{}}});
+ const call=(method,params)=>new Promise((resolve,reject)=>{const seq=++id,timer=setTimeout(()=>{pending.delete(seq);reject(Error('MCP_TIMEOUT'))},10000);pending.set(seq,r=>{clearTimeout(timer);r.error?reject(Error('MCP_PROTOCOL_ERROR')):resolve(r.result)});child.stdin.write(JSON.stringify({jsonrpc:'2.0',id:seq,method,params})+'\n')});
+ try{await call('initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'bridge-between-doctor',version:'0.7.0-beta.1'}});child.stdin.write(JSON.stringify({jsonrpc:'2.0',method:'notifications/initialized'})+'\n');const tools=await call('tools/list',{});const health=await call('tools/call',{name:'monitor_read',arguments:{action:'health'}});const denied=await call('tools/call',{name:'monitor_read',arguments:{action:'archive'}});return {tools:tools.tools.map(t=>t.name),readonly:tools.tools.every(t=>t.annotations?.readOnlyHint),schemaVersion:health.structuredContent?.schemaVersion,collector:health.structuredContent?.collector,maintenanceDenied:!!denied.isError,ui:'not_verified'}}finally{child.stdin.end();child.kill()}
+}

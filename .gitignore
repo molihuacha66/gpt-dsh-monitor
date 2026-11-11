@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+.local/
+*.sqlite
+*.sqlite-*
+*.zip
+settings.json
+instance.json
+*.token
+coverage/

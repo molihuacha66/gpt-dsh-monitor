@@ -1,0 +1,12 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {App} from '@modelcontextprotocol/ext-apps';
+import {ConversationApp} from './conversation.tsx';
+import type {Reader} from './reader.ts';
+const root=createRoot(document.getElementById('root')!);
+root.render(<div style={{padding:32,fontFamily:'system-ui'}}>正在连接只读 MCP App 宿主…</div>);
+const app=new App({name:'GPT–DSH Communication Monitor',version:'0.5.0'},{},{autoResize:false});
+const read:Reader=async input=>{const result=await app.callServerTool({name:'monitor_read',arguments:input});const value=result.structuredContent as Record<string,unknown>|undefined;if(!value||value.ok!==true)throw new Error(String(value?.code??'MONITOR_UNAVAILABLE'));return value as never};
+const theme=()=>{const ctx=app.getHostContext();document.documentElement.dataset.theme=ctx?.theme??'light';for(const side of ['top','right','bottom','left'] as const)document.documentElement.style.setProperty(`--cm-safe-${side}`,`${ctx?.safeAreaInsets?.[side]??0}px`)};
+app.onhostcontextchanged=theme;
+app.connect().then(()=>{theme();root.render(<ConversationApp read={read} embedded/>)}).catch(()=>root.render(<div style={{padding:32,fontFamily:'system-ui'}}><h2>无法连接 MCP App 宿主</h2><p>请从支持 MCP Apps 的客户端打开本资源。该页面不会直接连接本机 HTTP 或读取原始日志。</p></div>));

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex Bridge",
+    "description": "Two-way collaboration between DSH and OpenAI Codex: a shared mailbox and record, with an automatic wake-up when Codex sends a message."
+  }
+}

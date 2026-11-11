@@ -1,0 +1,1 @@
+{"mcpServers":{"dsh_codex_bridge":{"type":"stdio","command":"node","args":["${PLUGIN_ROOT}/server/index.mjs"]}}}

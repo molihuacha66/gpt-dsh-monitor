@@ -1,0 +1,1 @@
+{"name":"dsh-codex-bridge","version":"0.7.0-beta.1","description":"Optional local DSH–Codex communication bridge.","mcpServers":"./.mcp.json","requires_local_executor":true}
