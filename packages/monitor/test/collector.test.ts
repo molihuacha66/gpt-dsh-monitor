@@ -9,6 +9,7 @@ import { Collector } from '../src/collector.ts';
 import { COLUMNS, TABLES, BridgeSource } from '../src/source.ts';
 import { redact, redactText } from '../src/redaction.ts';
 import { MonitorError } from '../src/errors.ts';
+const PACKAGE_ROOT = resolve(import.meta.dirname, '..');
 
 function fixture(t: any) {
   const root = mkdtempSync(join(tmpdir(), 'comm-monitor-verify-'));
@@ -170,7 +171,7 @@ test('source snapshot releases WAL transaction before returning', t => {
 });
 test('CLI failure prints fixed code rather than source path or raw exception', t => {
   const f = fixture(t); const pathSecret = join(f.root, 'TESTONLY-password-do-not-print.sqlite');
-  const child = spawnSync(process.execPath, [resolve('src/cli.ts'), 'once', '--source', pathSecret, '--output', f.output], { encoding: 'utf8' });
+  const child = spawnSync(process.execPath, [resolve(PACKAGE_ROOT,'src/cli.ts'), 'once', '--source', pathSecret, '--output', f.output], { encoding: 'utf8',cwd:PACKAGE_ROOT });
   assert.equal(child.status, 1); assert.ok(child.stderr.includes('SOURCE_UNAVAILABLE')); assert.ok(!child.stderr.includes(pathSecret));
 });
 test('explicitly accepting deletion preserves history and allows later restoration', t => {
@@ -215,7 +216,7 @@ test('current record checkpoint has NULL sequence and real row count', t => {
 test('abrupt child process exit during monitor transaction leaves no partial commit', t => {
   const f = fixture(t);
   const code = `import {Collector} from './src/collector.ts'; const c=new Collector(${JSON.stringify(f.source)},${JSON.stringify(f.output)}); c.store.db.exec("BEGIN IMMEDIATE; INSERT INTO observations(table_name,row_key,observed_at,payload,digest) VALUES('messages','crash',1,'test-only','test-only')"); process.exit(19);`;
-  const child = spawnSync(process.execPath, ['--input-type=module', '-e', code], { encoding: 'utf8' });
+  const child = spawnSync(process.execPath, ['--input-type=module', '-e', code], { encoding: 'utf8',cwd:PACKAGE_ROOT });
   assert.equal(child.status, 19);
   const c = f.collect(); assert.equal(c.store.db.prepare('SELECT count(*) n FROM observations').get()!.n, 0); assert.equal(c.cycle().added, 7);
 });
@@ -225,7 +226,7 @@ test('plaintext credential split after label is suppressed before persistence', 
 });
 test('two collector processes serialize snapshots and atomically consistent checkpoints',async t=>{
   const f=fixture(t);const marker=join(f.root,'writer-has-lock');const prefix=`import {Collector} from './src/collector.ts';import{writeFileSync}from'node:fs';const c=new Collector(${JSON.stringify(f.source)},${JSON.stringify(f.output)});`;
-  function child(code:string){const p=spawn(process.execPath,['--input-type=module','-e',prefix+code],{stdio:['ignore','pipe','pipe']});const ended=new Promise<number|null>((resolve,reject)=>{p.on('error',reject);p.on('exit',resolve)});return {p,ended}}
+  function child(code:string){const p=spawn(process.execPath,['--input-type=module','-e',prefix+code],{cwd:PACKAGE_ROOT,stdio:['ignore','pipe','pipe']});const ended=new Promise<number|null>((resolve,reject)=>{p.on('error',reject);p.on('exit',resolve)});return {p,ended}}
   const first=child(`const read=c.source.snapshot.bind(c.source);c.source.snapshot=()=>{writeFileSync(${JSON.stringify(marker)},'test-only');Atomics.wait(new Int32Array(new SharedArrayBuffer(4)),0,0,500);return read()};try{c.cycle()}finally{c.close()}`);
   const deadline=Date.now()+5000;while(!existsSync(marker)&&Date.now()<deadline)await new Promise(r=>setTimeout(r,10));assert.ok(existsSync(marker));
   const second=child(`try{c.cycle()}finally{c.close()}`);

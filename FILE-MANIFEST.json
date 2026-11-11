@@ -308,8 +308,8 @@
     },
     {
       "path": "packages/monitor/test/collector.test.ts",
-      "bytes": 18265,
-      "sha256": "f8af8bc4e9530e7bbc37aa0f768da1cf8aa73d0d332874def7e29c0232a577ed"
+      "bytes": 18386,
+      "sha256": "969aa7988187d8f3cb80c75b5466f142b63aa05202235caccaa06d747d8635bc"
     },
     {
       "path": "packages/monitor/test/conversation.test.ts",
